@@ -117,6 +117,23 @@ body, p, h1, h2, h3, h4, h5, h6 {
   padding: 0px 23px;
 }
 
+.main_title_edu {
+  text-align: center;
+  padding: 60px 0px 10px 0px;
+}
+
+.main_title_edu h2 {
+  font-size: 36px;
+  font-family: "Bree Serif", serif;
+  color: #222222;
+  text-transform: uppercase;
+  text-align: center;
+  border: 1px solid #222222;
+  display: inline-block;
+  line-height: 58px;
+  padding: 0px 23px;
+}
+
 /* End Main title css
 ============================================================================================ */
 #preloader {
@@ -762,7 +779,7 @@ body, p, h1, h2, h3, h4, h5, h6 {
 }
 
 .service_area .service_inner .service_item {
-  text-align: center;
+  text-align: left;
   margin-top: 30px;
 }
 
@@ -784,6 +801,20 @@ body, p, h1, h2, h3, h4, h5, h6 {
   font-weight: bold;
   color: #222222;
   padding: 25px 0px 15px 0px;
+}
+
+.service_area .service_inner .service_item_new h5 {
+  font-size: 16px;
+  font-family: "Raleway", sans-serif;
+  color: #222222;
+  padding: 0px 0px 5px 105px;
+}
+
+.service_area .service_inner .service_item_new p {
+  font-size: 16px;
+  font-family: "Raleway", sans-serif;
+  color: #222222;
+  padding: 0px 0px 0px 105px;
 }
 
 .service_area .service_inner .service_item p {
@@ -1365,8 +1396,8 @@ body, p, h1, h2, h3, h4, h5, h6 {
 .footer_inner {
   text-align: center;
   background: rgba(0, 0, 0, 0.5);
-  padding: 80px 0px 60px 0px;
-  margin-top: -30px;
+  padding: 60px 0px 60px 0px;
+  margin-top: 30px;
 }
 
 .footer_inner img {
